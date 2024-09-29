@@ -1,0 +1,184 @@
+/* Specific styles*/
+#home a{
+    text-decoration: none;
+}
+#home h1{
+    font-size: 3.2em;
+}
+#home header p,h2{
+    text-align: center;
+}
+#home .product{
+    width: 300px;
+    padding:1.5em;
+}
+#price span{
+    font-weight:bold;
+}
+.logo{
+    width:50px;
+    border-radius: 10px;
+}
+
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+nav {
+    background-color: #007BFF;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #e9ecef;
+    margin-bottom: 2em;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Section Styles */
+section {
+    padding: 0 2em;
+}
+
+h2 {
+    color: #007BFF;
+    margin-top: 1.5em;
+}
+
+/* Team Member Grid */
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2em 0;
+}
+
+.team-member {
+    text-align: center;
+    margin: 1em;
+    border: 1px solid #007BFF;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #fff;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    border-radius: 50%;
+}
+
+/* Product Grid */
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2em 0;
+}
+
+.product {
+    border: 1px solid #007BFF;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #fff;
+    margin: 1em;
+    width: 200px; /* Set a fixed width */
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label {
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.7em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #e9ecef;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Social Links */
+#Socials {
+    text-align: center;
+    margin: 2em 0;
+}
+
+#Socials a {
+    margin: 0 10px;
+    color: #007BFF;
+}
+
+#Socials a:hover {
+    text-decoration: underline;
+}
+
+/* FAQ Styles */
+#FAQ {
+    margin: 2em 0;
+}
